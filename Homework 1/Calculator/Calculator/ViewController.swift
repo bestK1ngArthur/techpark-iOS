@@ -18,23 +18,18 @@ class ViewController: UIViewController {
     
     var displayedNumber: Double {
         get {
-            return Double(display.text!) ?? 0.0
+            return Double(display.text!) ?? Double(0)
         }
         
         set {
-            display.text = String(newValue)
+            display.text = String(format: "%g", newValue)
             calculator.setNumber(number: newValue)
         }
     }
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func resetButtonPressed(_ sender: AnyObject) {
@@ -76,5 +71,11 @@ class ViewController: UIViewController {
         calculator.setNumber(number: displayedNumber)
         userStartedTyping = true
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
 }
 

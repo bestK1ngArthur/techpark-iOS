@@ -23,8 +23,7 @@ class Calculator {
 
     private var pendingOperation: PendingBinaryOperation? = nil
     
-    private var accumulator = 0.0
-    
+    private var accumulator: Double = 0
     
     private var operations: [String: OperationType] = [
         "√": OperationType.unary(sqrt),

@@ -29,7 +29,7 @@ class Calculator {
         "√": OperationType.unary(sqrt),
         "∗": OperationType.unary({ $0*$0 }),
         "+/-": OperationType.unary({ -$0 }),
-        "%": OperationType.unary({ $0 / 100.0 }),
+        "^": OperationType.binary({ pow($0, $1) }),
         "+": OperationType.binary({ $0 + $1 }),
         "-": OperationType.binary({ $0 - $1 }),
         "÷": OperationType.binary({ $0 / $1 }),

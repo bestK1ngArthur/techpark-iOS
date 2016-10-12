@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var display: UILabel!
+    @IBOutlet var digitDisplay: UILabel!
+    @IBOutlet weak var operatorDisplay: UILabel!
     
     private var userStartedTyping = false
     
@@ -18,28 +19,29 @@ class ViewController: UIViewController {
     
     var displayedNumber: Double {
         get {
-            return Double(display.text!) ?? Double(0)
+            return Double(digitDisplay.text!) ?? Double(0)
         }
         
         set {
-            display.text = String(format: "%g", newValue)
+            digitDisplay.text = String(format: "%g", newValue)
             calculator.setNumber(number: newValue)
         }
     }
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        resetButtonPressed(nil)
     }
     
-    @IBAction func resetButtonPressed(_ sender: AnyObject) {
-        display.text = "0"
+    @IBAction func resetButtonPressed(_ sender: AnyObject?) {
+        digitDisplay.text = "0"
+        operatorDisplay.text = ""
         userStartedTyping = false
         calculator.setNumber(number: displayedNumber)
     }
     
     @IBAction func operationButtonPressed(_ sender: AnyObject) {
-        
         guard let button = sender as? UIButton else {
             return
         }
@@ -49,6 +51,7 @@ class ViewController: UIViewController {
         }
         
         displayedNumber = calculator.performOperation(operation: op)
+        operatorDisplay.text = op
         userStartedTyping = false
     }
     
@@ -58,14 +61,14 @@ class ViewController: UIViewController {
             return
         }
         
-        guard let currentText = display.text, let number = button.currentTitle else {
+        guard let currentText = digitDisplay.text, let number = button.currentTitle else {
             return
         }
         
         if userStartedTyping {
-            display.text = currentText + number
+            digitDisplay.text = currentText + number
         } else {
-            display.text = number
+            digitDisplay.text = number
         }
         
         calculator.setNumber(number: displayedNumber)
@@ -73,7 +76,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func switchModeAction(_ sender: AnyObject) {
-        self.display.text = display.text! + "."
+        self.digitDisplay.text = digitDisplay.text! + "."
     }
     
     override func didReceiveMemoryWarning() {

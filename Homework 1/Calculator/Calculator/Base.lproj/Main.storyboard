@@ -4,7 +4,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,7 +25,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="4fn-h7-sop"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="yVg-vG-ILl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cpu-xY-nX8"/>
@@ -38,7 +37,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="Hud-ii-pcf"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="POu-hZ-1ts"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eXP-vg-KGQ"/>
@@ -50,7 +49,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="XJw-2b-dnX"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="z0V-Sg-AvF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="7"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PdR-Ff-pqB"/>
@@ -62,7 +61,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="9VY-C0-azp"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="CjW-sg-wln"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TqO-YU-o01"/>
@@ -74,7 +73,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="fAz-9u-RDT"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="qVr-p3-HfL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="6"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1BU-WQ-rxd"/>
@@ -86,7 +85,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="QO9-Mp-d5s"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="SEO-eW-cih"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tON-8u-vZ9"/>
@@ -98,7 +97,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="fSu-KR-bHo"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="nuT-sF-TQJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="4"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kQB-4N-yIK"/>
@@ -110,7 +109,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="Dh5-JU-DEu"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="Fdc-dw-2o7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kyr-fT-it9"/>
@@ -122,7 +121,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="APn-aP-UvS"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="s7A-oO-nFD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W19-D0-tHQ"/>
@@ -134,7 +133,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="O6Z-xl-Kz2"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="b05-yM-SuL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qb9-Fe-2Dc"/>
@@ -146,7 +145,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="dmS-rs-xAu"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="iBQ-5B-HZc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RcB-Wa-yPc"/>
@@ -158,7 +157,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="168" id="1ew-0a-t3h"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="pCc-8t-K6c"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="numberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yAp-0O-RlW"/>
@@ -170,7 +169,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="HCQ-gL-v29"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="IT4-rv-ivC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                 <state key="normal" title="="/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R4P-sK-44G"/>
@@ -182,7 +181,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="MNv-0Q-pKH"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="iqy-pY-L1t"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="C"/>
                                 <connections>
                                     <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XfA-8w-BLq"/>
@@ -194,7 +193,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="g3S-zP-zt9"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="gOw-8X-hZb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="^"/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s4W-4O-dfX"/>
@@ -206,7 +205,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="06e-eZ-KKn"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="Fpq-tc-IbL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="x"/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jwm-9x-3r3"/>
@@ -218,7 +217,7 @@
                                     <constraint firstAttribute="height" priority="750" constant="80" id="bS7-5Y-Crh"/>
                                     <constraint firstAttribute="width" priority="750" constant="80" id="dUE-5x-Mlt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="÷"/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yph-bU-jeh"/>
@@ -230,7 +229,7 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="Iw1-q0-Sab"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="ONM-Dl-M5v"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title=","/>
                                 <connections>
                                     <action selector="switchModeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9Z-hk-eoK"/>
@@ -242,21 +241,45 @@
                                     <constraint firstAttribute="width" priority="750" constant="80" id="Env-0M-RXB"/>
                                     <constraint firstAttribute="height" priority="750" constant="80" id="PB0-p6-X5w"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="+/-"/>
                                 <connections>
                                     <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3vi-nl-Cck"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRh-jt-ZdV">
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pje-3M-WhN">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="XRh-jt-ZdV">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="bt9-25-aKn">
+                                                <variation key="heightClass=compact-widthClass=compact" constant="55"/>
+                                                <variation key="heightClass=regular-widthClass=compact" constant="70"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="36"/>
+                                        <color key="textColor" red="0.1294117719" green="0.14509804549999999" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9q-zP-NFc">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="86r-vr-Gpi"/>
+                                            <constraint firstAttribute="width" constant="50" id="uAn-eI-Jdo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="bt9-25-aKn"/>
+                                    <constraint firstItem="XRh-jt-ZdV" firstAttribute="leading" secondItem="Pje-3M-WhN" secondAttribute="leading" id="9j8-1f-PYI"/>
+                                    <constraint firstAttribute="trailing" secondItem="XRh-jt-ZdV" secondAttribute="trailing" constant="8" id="Ktt-mc-J32"/>
+                                    <constraint firstItem="B9q-zP-NFc" firstAttribute="top" secondItem="Pje-3M-WhN" secondAttribute="top" constant="8" id="LLb-lo-niW"/>
+                                    <constraint firstAttribute="bottom" secondItem="XRh-jt-ZdV" secondAttribute="bottom" id="U4x-JN-SyX"/>
+                                    <constraint firstItem="XRh-jt-ZdV" firstAttribute="top" secondItem="B9q-zP-NFc" secondAttribute="bottom" constant="-12" id="i2L-IP-wFt"/>
+                                    <constraint firstAttribute="trailing" secondItem="B9q-zP-NFc" secondAttribute="trailing" constant="8" id="zal-Na-aMk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -268,10 +291,6 @@
                             <constraint firstItem="0Ce-TE-Gm8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="2pP-8b-6jr">
                                 <variation key="heightClass=regular-widthClass=compact" constant="15"/>
                             </constraint>
-                            <constraint firstItem="XRh-jt-ZdV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" multiplier="0.7" constant="8" symbolic="YES" id="3Nu-Zs-nYs">
-                                <variation key="heightClass=compact-widthClass=compact" constant="16"/>
-                                <variation key="heightClass=regular-widthClass=compact" constant="121"/>
-                            </constraint>
                             <constraint firstItem="8ro-gq-XsA" firstAttribute="leading" secondItem="gOz-Ce-DcI" secondAttribute="trailing" constant="8" symbolic="YES" id="3pw-Uq-pEr">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
@@ -280,12 +299,17 @@
                             <constraint firstItem="wnc-Kq-aXf" firstAttribute="top" secondItem="gOz-Ce-DcI" secondAttribute="bottom" constant="8" symbolic="YES" id="6kJ-c0-do0">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
-                            <constraint firstItem="XRh-jt-ZdV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="76Y-M5-5b3"/>
+                            <constraint firstItem="nYs-VG-oiB" firstAttribute="top" secondItem="Pje-3M-WhN" secondAttribute="bottom" constant="8" id="8ju-kK-mSz"/>
+                            <constraint firstItem="Pje-3M-WhN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="9Gu-Re-ERu"/>
                             <constraint firstItem="Vbp-yF-GVQ" firstAttribute="leading" secondItem="nYs-VG-oiB" secondAttribute="trailing" constant="8" symbolic="YES" id="9dM-87-3ii">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="gMG-cr-mxj" firstAttribute="top" secondItem="Vbp-yF-GVQ" secondAttribute="bottom" constant="8" symbolic="YES" id="AML-Xe-Zb5">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="Pje-3M-WhN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="AdA-aj-Fdr">
+                                <variation key="heightClass=compact-widthClass=compact" constant="16"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="112"/>
                             </constraint>
                             <constraint firstItem="h7F-ab-P4B" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Aj6-NR-Xv9">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
@@ -347,6 +371,7 @@
                             <constraint firstItem="h7F-ab-P4B" firstAttribute="top" secondItem="nIs-zv-xdj" secondAttribute="bottom" constant="8" symbolic="YES" id="Tj8-0e-bI4">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
+                            <constraint firstItem="Pje-3M-WhN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="VV9-jX-ftu"/>
                             <constraint firstItem="gzY-A5-yfZ" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="ZeI-H6-5Sh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yrV-lU-evL" secondAttribute="bottom" constant="16" id="anF-aD-dT3"/>
                             <constraint firstItem="gOz-Ce-DcI" firstAttribute="height" secondItem="0Ce-TE-Gm8" secondAttribute="height" id="apH-7c-i46"/>
@@ -359,9 +384,6 @@
                             <constraint firstItem="nYs-VG-oiB" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="c1h-SL-pMQ"/>
                             <constraint firstItem="K1C-Vu-LkZ" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="c9K-fa-1ec"/>
                             <constraint firstItem="wnc-Kq-aXf" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="eWi-pP-TkD"/>
-                            <constraint firstItem="nYs-VG-oiB" firstAttribute="top" secondItem="XRh-jt-ZdV" secondAttribute="bottom" constant="8" id="eh1-RB-iCT">
-                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
-                            </constraint>
                             <constraint firstItem="8ro-gq-XsA" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="epC-Q7-nXa"/>
                             <constraint firstItem="gOz-Ce-DcI" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="geZ-JC-qbP"/>
                             <constraint firstItem="gOz-Ce-DcI" firstAttribute="top" secondItem="jCm-xn-0dl" secondAttribute="bottom" constant="8" symbolic="YES" id="gnI-iE-S8K">
@@ -393,7 +415,6 @@
                             </constraint>
                             <constraint firstItem="yrV-lU-evL" firstAttribute="height" secondItem="0Ce-TE-Gm8" secondAttribute="height" id="pO1-Fe-dcJ"/>
                             <constraint firstItem="K1C-Vu-LkZ" firstAttribute="height" secondItem="0Ce-TE-Gm8" secondAttribute="height" id="pQk-RI-mg5"/>
-                            <constraint firstItem="XRh-jt-ZdV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="phu-gL-hic"/>
                             <constraint firstItem="yrV-lU-evL" firstAttribute="leading" secondItem="Ur3-uE-oMY" secondAttribute="trailing" constant="8" symbolic="YES" id="qRp-Xd-c9T">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
@@ -422,7 +443,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="display" destination="XRh-jt-ZdV" id="Dl7-iO-KFx"/>
+                        <outlet property="digitDisplay" destination="XRh-jt-ZdV" id="CBE-Si-aE6"/>
+                        <outlet property="operatorDisplay" destination="B9q-zP-NFc" id="8Os-dX-dyo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

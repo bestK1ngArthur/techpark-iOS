@@ -397,6 +397,33 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Belkov Artem" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaQ-Be-ICk">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="Ykb-bf-mbM"/>
+                                    <constraint firstAttribute="height" constant="21" id="vbD-nE-dd6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Homework 1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaN-lx-ted">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="PlV-Dm-c1m"/>
+                                    <constraint firstAttribute="height" constant="21" id="vte-Wu-FHf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hp-j2-xbH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="3gM-cK-kzr"/>
+                                    <constraint firstAttribute="height" constant="39" id="VHv-fl-dUC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -404,6 +431,7 @@
                             <constraint firstItem="yrV-lU-evL" firstAttribute="top" secondItem="K1C-Vu-LkZ" secondAttribute="bottom" constant="8" symbolic="YES" id="0lZ-OO-zIj">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="9hp-j2-xbH" secondAttribute="trailing" id="1my-iF-dLa"/>
                             <constraint firstItem="yrV-lU-evL" firstAttribute="height" secondItem="Ur3-uE-oMY" secondAttribute="height" id="2U8-Fb-rS9"/>
                             <constraint firstItem="0Ce-TE-Gm8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="2pP-8b-6jr">
                                 <variation key="heightClass=regular-widthClass=compact" constant="15"/>
@@ -439,6 +467,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="Vbp-yF-GVQ" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="CwN-jL-gpQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zaQ-Be-ICk" secondAttribute="trailing" constant="1" id="DA5-HY-pdy"/>
                             <constraint firstItem="pX8-BD-q87" firstAttribute="top" secondItem="nYs-VG-oiB" secondAttribute="bottom" constant="8" symbolic="YES" id="EVH-cu-eiq">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
@@ -455,6 +484,7 @@
                             <constraint firstItem="wNe-hv-7ti" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="Har-qU-Uh9"/>
                             <constraint firstItem="gOz-Ce-DcI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="Hdu-b5-ZBK"/>
                             <constraint firstItem="nIs-zv-xdj" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="ILS-ij-W8y"/>
+                            <constraint firstItem="Pje-3M-WhN" firstAttribute="top" secondItem="zaQ-Be-ICk" secondAttribute="bottom" constant="14" id="IlK-Rw-PWj"/>
                             <constraint firstItem="nIs-zv-xdj" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="J7N-bQ-ioi">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
@@ -511,6 +541,7 @@
                             <constraint firstItem="CuN-YM-aVY" firstAttribute="leading" secondItem="yrV-lU-evL" secondAttribute="trailing" constant="8" symbolic="YES" id="i5t-Hp-ra6">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
+                            <constraint firstItem="9hp-j2-xbH" firstAttribute="top" secondItem="gaN-lx-ted" secondAttribute="bottom" constant="3" id="iGP-ZT-fwR"/>
                             <constraint firstItem="CuN-YM-aVY" firstAttribute="height" secondItem="0Ce-TE-Gm8" secondAttribute="height" id="ibG-B4-PLP"/>
                             <constraint firstItem="Ur3-uE-oMY" firstAttribute="top" secondItem="wnc-Kq-aXf" secondAttribute="bottom" constant="8" symbolic="YES" id="izt-aJ-PST">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
@@ -526,7 +557,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="h7F-ab-P4B" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="kpQ-TJ-hcX"/>
+                            <constraint firstItem="zaQ-Be-ICk" firstAttribute="top" secondItem="9hp-j2-xbH" secondAttribute="bottom" constant="6" id="lk7-JX-FsW"/>
                             <constraint firstItem="yrV-lU-evL" firstAttribute="width" secondItem="0Ce-TE-Gm8" secondAttribute="width" id="mpg-F5-s7R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gaN-lx-ted" secondAttribute="trailing" constant="1" id="ocZ-To-TXz"/>
                             <constraint firstItem="nIs-zv-xdj" firstAttribute="leading" secondItem="gMG-cr-mxj" secondAttribute="trailing" constant="8" symbolic="YES" id="oeB-Gh-K9M">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>

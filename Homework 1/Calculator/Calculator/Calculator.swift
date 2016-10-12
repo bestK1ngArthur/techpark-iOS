@@ -5,6 +5,7 @@
 //  Created by Gennady Evstratov on 06/10/2016.
 //  Copyright © 2016 test. All rights reserved.
 //
+// Класс управления операциями калькулятора
 
 import Foundation
 
@@ -26,7 +27,6 @@ class Calculator {
     private var accumulator: Double = 0
     
     private var operations: [String: OperationType] = [
-        "√": OperationType.unary(sqrt),
         "∗": OperationType.unary({ $0*$0 }),
         "+/-": OperationType.unary({ -$0 }),
         "^": OperationType.binary({ pow($0, $1) }),
@@ -41,12 +41,12 @@ class Calculator {
         self.accumulator = number
     }
     
-    func performOperation(operation: String) -> Double {
-        guard let op = operations[operation] else {
+    func performOperation(operationString: String) -> Double {
+        guard let operation = operations[operationString] else {
             return -1
         }
         
-        switch op {
+        switch operation {
         case .unary(let f):
             return f(accumulator)
 

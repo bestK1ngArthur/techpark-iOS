@@ -46,12 +46,12 @@ class ViewController: UIViewController {
             return
         }
         
-        guard let op = button.currentTitle else {
+        guard let opString = button.currentTitle else {
             return
         }
         
-        displayedNumber = calculator.performOperation(operation: op)
-        operatorDisplay.text = op
+        displayedNumber = calculator.performOperation(operationString: opString)
+        operatorDisplay.text = opString
         userStartedTyping = false
     }
     

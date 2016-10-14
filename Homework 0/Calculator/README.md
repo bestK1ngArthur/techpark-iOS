@@ -8,4 +8,14 @@
 
 ## Решение
 
-![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%200/Calculator/Calculator/Screenshot.png)
+### iPhone 7
+
+![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%200/Calculator/Calculator/Screenshot1.png)
+
+![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%200/Calculator/Calculator/Screenshot2.png)
+
+### iPhone 7+
+
+![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%200/Calculator/Calculator/Screenshot3.png)
+
+![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%200/Calculator/Calculator/Screenshot4.png)

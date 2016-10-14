@@ -1,4 +1,4 @@
-# Домашнее задание №1
+# Домашнее задание №0
 ## Задача
 Доделать пример калькулятора, реализовав следующие штуки:
 * autolayout
@@ -9,5 +9,3 @@
 ## Решение
 
 ![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%201/Calculator/Calculator/Screenshot.png)
-
-

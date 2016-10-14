@@ -8,4 +8,4 @@
 
 ## Решение
 
-![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%201/Calculator/Calculator/Screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/bestK1ngArthur/techpark-iOS/master/Homework%200/Calculator/Calculator/Screenshot.png)
